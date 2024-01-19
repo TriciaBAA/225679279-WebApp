@@ -22,15 +22,25 @@
         <img src="/catfightingsomeb.jpg" alt="cat fighting a girl (literally)" width="400px">
 
     <!-- Forms
-        Create a simple form with the following fields:
-        - Text input for the user's name.
-        - Password input for the user's password.
-        - Radio buttons for gender (Male/Female).
-        - Checkbox for accepting terms and conditions.
-        - Submit button. -->
+        Create a simple form with the following fields: -->
         <form action="">
+            <!-- Text input for the user's name. -->
             <label for="name">Name: </label>
-            <input type="text" id="name">
+            <input type="text" id="name" name="name">
+            <!-- Password input for the user's password. -->
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password">
+            <!-- Radio buttons for gender (Male/Female). -->
+            <label for="gender">Gender: </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <!-- Checkbox for accepting terms and conditions. -->
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms"><!-- put terms and conditions here -->I accept the terms and conditions.</label>
+            <!-- Submit button. -->
+            <input type="submit" value="Submit">
         </form>
 </body>
 </html>
