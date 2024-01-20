@@ -32,15 +32,16 @@
                 <form action="">
                     <!-- Text input for the user's name. -->
                     <label for="name">Name: </label>
-                    <input type="text" id="name" name="name"><br><br>
+                    <input type="text" id="name" name="name" minlength="3" placeholder="Enter your name" required><br><br>
                     <!-- Password input for the user's password. -->
                     <label for="password">Password: </label>
-                    <input type="password" id="password" name="password"><br><br>
+                    <input type="password" id="password" name="password" placeholder="Enter password"  required
+                        pattern="(?=.*\d).{6,}" title="Must contain atleast one number and atleast 6 or more characters"><br><br>
                     <!-- Radio buttons for gender (Male/Female). -->
                     <label for="gender">Gender: </label><br><br>
-                    <input type="radio" id="male" name="gender" value="male">
+                    <input type="radio" id="male" name="gender" value="male" required>
                     <label for="male">Male</label>
-                    <input type="radio" id="female" name="gender" value="female">
+                    <input type="radio" id="female" name="gender" value="female" required>
                     <label for="female">Female</label><br>
                     <!-- Checkbox for accepting terms and conditions. -->
                     <p> By accepting these terms, you acknowledge that: </p>
@@ -50,8 +51,8 @@
                             <li>Furniture belongs to the cat, you merely rent it with occasional petting privileges.</li>
                             <li>Your lap is not your own, but a designated warming station.</li>
                         </ul>
-                    <input type="checkbox" name="terms" id="terms">
-                    <label for="terms"><!-- put terms and conditions here -->I accept the terms and conditions ≽^•⩊•^≼</label><br><br>
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms">I accept the terms and conditions ≽^•⩊•^≼</label><br><br>
                     <!-- Submit button. -->
                     <input type="submit" value="Submit"><br><br>
                 </form>
