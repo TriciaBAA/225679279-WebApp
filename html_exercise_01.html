@@ -4,23 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML Exercises</title>
+    
+        <!-- for table borders -->
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid black;
+            }
+        </style>
     </head>
 
-    <!-- for table borders -->
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-        }
-    </style>
-
-    <body style="background-color: #d2c5b9;">
-        <header>
+    <body style="background-color: #d2c5b9;"> <!-- display: grid; grid-template-columns: 35% 50% 15%;" -->
+        
+        <div></div>
+        <div>
+        <header style = "display: grid; grid-template-columns: 42% 50% 18%;">
+            <div></div>
+            <div>
             <section class="menu">
-                <center><h1>CATS RULE THE WORLD</h1></center>
-                <hr>
+                <h1>CATS RULE THE WORLD</h1>
+        </header>
+        <hr>
             <!-- 1. LINKS -->
                 <nav>
                     <h3><a href="#">Home</a>
@@ -28,25 +34,25 @@
                     <a href="#">Contact</a></h3>
                 </nav>
             </section>
-        </header>
-<!-- add here -->
+        
+
         <main>
             <section>
+                <h2>CATS! CATS! CATS!</h2>
             <!-- 2. IMAGES -->
                 <article>
+                    <h3>Did you know that you are inferior to cats?</h3>
                     <figure>
-                        <center><img src="/catfightingsomeb.jpg" alt="cat fighting a girl (literally)" width="400px"></center>
-                        <center><figcaption>A cat fighting a girl (literally).</figcaption></center><br>
+                        <img src="/catfightingsomeb.jpg" alt="cat fighting a girl (literally)" width="400">
+                        <figcaption>A cat fighting a girl (literally).</figcaption>
                     </figure>
                 </article>
             </section>
-
             
             <section>
-                <center>
                     <h3>Sign up now if you believe in cat supremacy !!</h3>
             <!-- 3. FORMS -->
-                    <form action="">
+                    <form action="forms">
                         <!-- Text input for the user's name. -->
                         <label for="name">Name: </label>
                         <input type="text" id="name" name="name" minlength="3" placeholder="Enter your name" required><br><br>
@@ -55,10 +61,10 @@
                         <input type="password" id="password" name="password" placeholder="Enter password"  required
                             pattern="(?=.*\d).{6,}" title="Must contain atleast one number and atleast 6 or more characters"><br><br>
                         <!-- Radio buttons for gender (Male/Female). -->
-                        <label for="gender">Gender: </label><br><br>
-                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label>Gender: </label><br><br>
+                            <input type="radio" id="male" name="gender" value="male" required>
                         <label for="male">Male</label>
-                        <input type="radio" id="female" name="gender" value="female" required>
+                            <input type="radio" id="female" name="gender" value="female" required>
                         <label for="female">Female</label><br>
                         <!-- Checkbox for accepting terms and conditions. -->
                         <p> By accepting these terms, you acknowledge that: </p>
@@ -73,13 +79,12 @@
                         <!-- Submit button. -->
                         <input type="submit" value="Submit"><br><br>
                     </form>
-                </center>
+                
             </section>
             <hr>
 
-            <section>
             <!-- 4. TABLES -->
-                <center>
+                
                     <table>
                         <tr>
                             <th>Name</th>
@@ -97,38 +102,38 @@
                             <td>Los Angeles</td>
                         </tr>
                     </table>
-                </center>
-            </section>
             <hr>
 
             <section>
-                <center><h3>Here's some cat videos to help <s>brainwash</s> heal you :D</h3></center>
+                <h3>Here's some cat videos to help <s>brainwash</s> heal you :D</h3>
 
             <!-- 5. AUDIO AND VIDEO -->
-                <center>
                     <figure>
-                        <video width="420px" height="340px" controls>
+                        <video width="420" height="340" controls>
                             <source src="/cathuh.mp4" type="video/mp4">   
                         </video>
                         <figcaption>"huh ? ..."</figcaption>
                     </figure>
-                </center>
-                <center>
+                
+                
                     <figure>
-                        <video width="420px" height="340px" controls>
+                        <video width="420" height="340" controls>
                             <source src="/crunchycat.mp4" type="video/mp4">   
                         </video>
                         <figcaption>ckrck crkkkk krckk  </figcaption>
                     </figure>
-                </center>
-                <center><audio controls src="/peti'pone.mp3"></audio></center>
+                
+                <audio controls src="/peti'pone.mp3"></audio>
             </section>
         </main>
 
         <hr>
         <footer>
-            <p>Visit <a href="https://www.pinterest.ph/trs_1/cats-rule-the-world/">this lovely site</a> for more <3</p>
+            <p>Visit <a href="https://www.pinterest.ph/trs_1/cats-rule-the-world/">this lovely site</a> for more!!</p>
             &copy; 2024 T :)
         </footer>
+    </div>
+    <div></div>
     </body>
     </html>
+    
