@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(154, 180, 185);
+}
+
+h1, h2 {
+    color: beige;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    color: beige;
+}
+
+li {
+    display: inline;
+}
+
+footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: auto;
+}
