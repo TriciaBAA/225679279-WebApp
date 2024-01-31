@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Exercise 04</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>HTML Exercise 04</h1>
+        <!-- temporary header only wala pako maisip na maganda-->
+    </header>
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- WELCOME -->
+    <section id="welcome">
+        <h2>WELCOME!</h2>
+        <p><abbr title="Hypertext Markup Language">HTML</abbr></p> <!-- temo paragraph here wala pako maisip T-T -->
+        <figure>
+            <img src="/HTML Exercise 04/bunny.jpg" alt="A bunny wearing headphones"> <!-- also temp pic bec I have no theme yet huhu -->
+            <figcaption>cute bunny ⋆ ˚｡⋆୨୧˚</figcaption>
+        </figure>
+    </section>
+
+    <section id="form">
+        <h2>FORM</h2>
+        <form action="">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name here" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email here"><br>
+
+            <label for="date">Date of Birth: </label>
+            <input type="date" name="date" id="date"><br>
+
+            <label for="contact">Contact Number: </label>
+            <input type="tel" name="contact" id="contact" 
+                pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="xxxx-xxx-xxxx"><br>
+
+            <button type="button">Submit</button>
+        </form>
+    </section>
+
+    <section id="map">
+        <h2>GOOGLE MAPS</h2>
+        <iframe src="https://maps.google.com/maps?q=baguio&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
+            frameborder="0" width="400" height="300" allowfullscreen></iframe>
+    </section>
+
+    <section id="contacts">
+        <h2>CONTACTS</h2>
+        <blockquote cite="https://twitter.com/ShouldHaveCat">
+            Why you should have a cat twitter feed
+        </blockquote>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
