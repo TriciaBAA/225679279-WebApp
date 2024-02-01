@@ -1,15 +1,45 @@
+@font-face {
+    font-family: studioGhibli;
+    src: url('https://fonts.cdnfonts.com/css/ghibli');
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: auto;
     box-sizing: border-box;
+    background-color: #3C3D4E;
 }
 
+/**header w 2 pics
 header {
-    background-color: #cc9bcb;
+    background-color:#7BAE68;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 120px;
+    background-image: url("/HTML Exercise 04/header.jpg"), url("/HTML Exercise 04/header2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%, center;
+    background-size: 18%, 100%;
+    font-family: studioGhibli;
+    font-size: 200%;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C2A887;
+}**/
+
+header {
+    background-color:#7BAE68;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-image: url("/HTML Exercise 04/header2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    font-family: studioGhibli;
+    font-size: 250%;
+    font-style: italic;
 }
 
 nav {
