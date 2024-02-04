@@ -36,12 +36,20 @@ header {
     background-color:#7BAE68;
     color: white;
     text-align: center;
-    padding: 10px;
-    background-image: url("/HTML Exercise 04/header2.jpg");
+    padding: 5px;
+    background-image: url("/HTML Exercise 04/img/header2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    font-size: 250%;
+}
+
+h1 {
+    font-size: 400%;
+    font-style: italic;
+}
+
+#head {
+    font-size: 150%;
     font-style: italic;
 }
 
@@ -66,7 +74,7 @@ header {
     list-style: none;
 }
 
-.navbar #form {
+.navbar #form_ {
     float: right;
     padding-right: 20px;
 }
@@ -94,7 +102,7 @@ header {
     font-size: 2em;
 }
 
-p {
+#intro {
     font-size: 1.2em;
     line-height: 1.6;
     color: #35363D;
@@ -106,7 +114,30 @@ abbr {
     cursor: help;
 }
 
+hr {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 /**Content**/
+.pic-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+.pic {
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 /**sign in**/
 .container {
@@ -114,6 +145,17 @@ abbr {
     justify-content: center;
     align-items: center;
     height: auto;
+}
+
+.form {
+    background-color: #7BAE68;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    padding-top: 2px;
+    text-align: center;
+    width: 25%;
 }
 
 .signin {

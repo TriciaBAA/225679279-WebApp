@@ -9,25 +9,26 @@
 <body>
     <header>
         <h1>STUDIO GHIBLI</h1>
+        <p id="head">All Hayao Miyazaki's Masterpiece</p>
     </header>
 
     <nav class="navbar">
         <ul>
-            <li id="home"><a href="#home">Home</a></li>
-            <li id="location"><a href="#location">Location</a></li>
-            <li id="contacts"><a href="#contacts">Contacts</a></li>
-            <li id="form"><a href="#form">Sign In</a></li>
+            <li id="home_"><a href="#home">Home</a></li>
+            <li id="location_"><a href="#location">Location</a></li>
+            <li id="contacts_"><a href="#contacts">Contacts</a></li>
+            <li id="form_"><a href="#form">Sign In</a></li>
         </ul>
     </nav>
 
     <section>
-        <img src="/HTML Exercise 04/opening1.gif" alt="A bunny wearing headphones" id="opening"> 
+        <img src="/HTML Exercise 04/img/opening1.gif" alt="Arriety spinning gif" id="opening"> 
     </section>
 
     <!-- INTRO -->
     <section id="home">
         <h2 id="welcome">WELCOME!</h2>
-        <p><i>Welcome to the enchanting world of <abbr title="Studio Ghibli">SG</abbr> , where imagination knows no bounds and magical tales come <br>
+        <p id="intro"><i>Welcome to the enchanting world of <abbr title="Studio Ghibli">SG</abbr> , where imagination knows no bounds and magical tales come <br>
             to life! This site is a homage to the extraordinary creations of this renowned Japanese animation studio, <br>
             dedicated to bringing joy, wonder, and inspiration to audiences around the globe. Step into a realm where <br>
             ordinary becomes extraordinary, as <abbr title="Studio Ghibli">SG</abbr>'s masterful storytelling, breathtaking animation, and <br>
@@ -36,11 +37,43 @@
             a treasure trove of information, and love for all things Ghibli. <br><br>
             Explore the enchanting landscapes, whimsical creatures, and profound themes that define <abbr title="Studio Ghibli">SG</abbr>'s <br>
             cinematic universe. Whether you're a seasoned Ghibli enthusiast or a newcomer eager to discover the magic, <br>
-            this site is your portal to a world of animation brilliance.</i></p>
+            this site is your portal to a world of animation brilliance. <br><br>
+            <b>Disclaimer:</b> This site specifically displays all of Hayao Miyazaki's brilliant films. <br></i></p>
     </section>
+    <hr>
 
     <!-- CONTENTS -->
+    <div class="pic-container">
+        <div class="pic"><a href="https://www.imdb.com/title/tt0245429/"><img src="/HTML Exercise 04/img/spiritedaway.jpg" alt="Spirited Away poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt0097814/"><img src="/HTML Exercise 04/img/kikisdeliveryservice.jpg" alt="Kiki's Delivery Service poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt0096283/"><img src="/HTML Exercise 04/img/totoro.jpg" alt="My Neighbor Totoro poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt0347149/"><img src="/HTML Exercise 04/img/howls.jpg" alt="Howls Moving Castle poster"></a></div>
 
+        <div class="pic"><a href="https://www.imdb.com/title/tt0119698/"><img src="/HTML Exercise 04/img/mononoke.jpg" alt="Princess Mononoke poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt2013293/"><img src="/HTML Exercise 04/img/windrises.jpg" alt="The Wind Rises poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt0876563/"><img src="/HTML Exercise 04/img/ponyo.jpg" alt="Ponyo poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt6587046/"><img src="/HTML Exercise 04/img/theboy.jpg" alt="The Boy and the Heron poster"></a></div>
+
+        <div class="pic"><a href="https://www.imdb.com/title/tt0092067/"><img src="/HTML Exercise 04/img/castleinthesky.jpg" alt="Castle in the Sky poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt0079833/"><img src="/HTML Exercise 04/img/cagliostro.jpg" alt="Lupin III: The Castle of Cagliostro poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt0104652/"><img src="/HTML Exercise 04/img/porcorosso.jpg" alt="Porco Rosso poster"></a></div>
+        <div class="pic"><a href="https://www.imdb.com/title/tt0087544/"><img src="/HTML Exercise 04/img/nausicaa.jpg" alt="Nausicaä of the Valley of the Wind poster"></a></div>
+    </div>
+
+    <section id="location">
+        <h2>GOOGLE MAPS</h2>
+        <iframe src="https://maps.google.com/maps?q=baguio&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
+            frameborder="0" width="400" height="300" allowfullscreen></iframe>
+    </section>
+
+    <section id="contacts">
+        <h2>CONTACTS</h2>
+        <blockquote cite="https://twitter.com/ShouldHaveCat">
+            Why you should have a cat twitter feed
+        </blockquote>
+    </section>
+
+    <!-- Sign Up -->
     <div class="container">
         <section id="form" class="signin">
             <h2>Sign In</h2>
@@ -62,19 +95,6 @@
             </form>
         </section>
     </div>
-
-    <section id="location">
-        <h2>GOOGLE MAPS</h2>
-        <iframe src="https://maps.google.com/maps?q=baguio&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
-            frameborder="0" width="400" height="300" allowfullscreen></iframe>
-    </section>
-
-    <section id="contacts">
-        <h2>CONTACTS</h2>
-        <blockquote cite="https://twitter.com/ShouldHaveCat">
-            Why you should have a cat twitter feed
-        </blockquote>
-    </section>
 
     <script src="script.js"></script>
 </body>
