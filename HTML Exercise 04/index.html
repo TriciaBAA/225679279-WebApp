@@ -9,7 +9,6 @@
 <body>
     <header>
         <h1>STUDIO GHIBLI</h1>
-        <!-- temporary header only wala pako maisip na maganda-->
     </header>
 
     <nav class="navbar">
@@ -25,31 +24,33 @@
         <img src="/HTML Exercise 04/opening1.gif" alt="A bunny wearing headphones" id="opening"> 
     </section>
 
-    <!-- WELCOME -->
+    <!-- INTRO -->
     <section id="home">
         <h2>WELCOME!</h2>
         <p><abbr title="Hypertext Markup Language">HTML</abbr></p> <!-- temo paragraph here wala pako maisip T-T -->
     </section>
 
-    <section id="form">
-        <h2>FORM</h2>
-        <form action="">
-            <label for="name">Name: </label>
-            <input type="text" name="name" id="name" placeholder="Enter your name here" required><br>
+    <div class="container">
+        <section id="form" class="form">
+            <h2>Sign In</h2>
+            <form action="">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name here" required><br>
 
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email" placeholder="Enter your email here"><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Enter your email here"><br>
 
-            <label for="date">Date of Birth: </label>
-            <input type="date" name="date" id="date"><br>
+                <label for="date">Date of Birth: </label>
+                <input type="date" name="date" id="date"><br>
 
-            <label for="contact">Contact Number: </label>
-            <input type="tel" name="contact" id="contact" 
-                pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="xxxx-xxx-xxxx"><br>
+                <label for="contact">Contact Number: </label>
+                <input type="tel" name="contact" id="contact" 
+                    pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="xxxx-xxx-xxxx"><br>
 
-            <button type="button">Submit</button>
-        </form>
-    </section>
+                <button type="button">Submit</button>
+            </form>
+        </section>
+    </div>
 
     <section id="location">
         <h2>GOOGLE MAPS</h2>
