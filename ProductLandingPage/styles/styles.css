@@ -179,7 +179,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: rgb(241, 91, 116);
 }
 
 @media (max-width: 550px) {
@@ -237,12 +237,30 @@ nav > ul {
   text-align: center;
   width: calc(100% / 3);
   margin: 10px;
-  border: 1px solid #000;
+  border: 3px solid #000;
   border-radius: 3px;
 }
 
-.product > .level {
-  background-color: #ddd;
+.product > .strawberry {
+  background-color: rgb(241, 91, 116);
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > .blueberry {
+  background-color: rgb(94, 94, 175);
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > .ube {
+  background-color: rgb(169, 98, 169);
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -308,3 +326,10 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
+img {
+  width: 90%;
+}
+
+
+
